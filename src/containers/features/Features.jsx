@@ -1,6 +1,7 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
+import trophy from "../../assets/esports.jpg";
 
 const featuresData = [
   {
@@ -23,19 +24,21 @@ const featuresData = [
 
 const Features = () => (
   <div className="step0__features section__padding" id="features">
+    <div className="step0__features-container">
+      {featuresData.map((item, index) => (
+        <Feature title={item.title} text={item.text} key={item.title + index} />
+      ))}
+    </div>
     <div className="step0__features-heading">
       <h1 className="gradient__text">Mental Health for Gamers</h1>
       <div className='step0__features-heading-buttons'>
         <button>adfasdfasfasdfasdfasdf</button>
         <button>Book an Appointment</button>
       </div>
-    </div>
-    <div className="step0__features-container">
-      {featuresData.map((item, index) => (
-        <Feature title={item.title} text={item.text} key={item.title + index} />
-      ))}
+      <img src={trophy} alt="trophy" />
     </div>
   </div>
+  
 );
 
 export default Features;
