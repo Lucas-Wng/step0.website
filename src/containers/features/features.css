@@ -8,7 +8,7 @@
 .step0__features-heading {
     flex: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: space-evenly;
     flex-direction: column;
 
@@ -61,7 +61,7 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1300px) {
     .step0__features {
         flex-direction: column;
     }

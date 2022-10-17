@@ -11,8 +11,7 @@
     margin-top: 2rem;
     background: var(--color-footer);
     border-radius: 8px;
-
-    background-color: #4400e3;
+    background-color: #626aa0;
 }
 
 /* Customizing feature component as per needs */
@@ -22,7 +21,7 @@
 
 /* Customizing feature component as per needs */
 .step0__about-feature .step0__features-container_feature-text {
-    max-width: 700px;
+    max-width: 1100px;
 }
 
 .step0__about-heading {
@@ -69,7 +68,7 @@
     min-width: 210px;
     display: unset;
     flex-direction: column;
-    background-color: #4400e3;
+    background-color: #626aa0;
     border-radius: 8px;
 }
 
@@ -78,7 +77,7 @@
     margin-top: 0.5rem;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
     .step0__about-heading {
         flex-direction: column;
         align-items: flex-start;
@@ -88,9 +87,13 @@
     .step0__about-heading p {
         margin-top: 1rem;
     }
+    .step0__about-heading h1 {
+        font-size: 15px;
+        line-height: 20px;
+    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     /* Customizing feature component as per needs */
     .step0__about-feature .step0__features-container__feature {
         flex-direction: column;
@@ -102,12 +105,12 @@
     }
 
     .step0__about-heading h1 {
-        font-size: 28px;
-        line-height: 40px;
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 700px) {
     /* Customizing feature component as per needs */
     .step0__about-container .step0__features-container__feature {
         margin: 1rem 0;

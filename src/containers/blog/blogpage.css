@@ -1,0 +1,17 @@
+.step0__blogpage{
+    padding: 6rem 16rem;
+}
+
+.step0__blogpage-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+
+.step0__blogpage-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}

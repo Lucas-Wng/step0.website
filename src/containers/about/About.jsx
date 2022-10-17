@@ -13,7 +13,7 @@ const About = () => (
       <Feature title="1 in 2" text="of all serious adult psychiatric disorders start by age 14 years" />
       <Feature title="6-23 years" text="Treatment often does not begin for 6-23 years after onset" />
     </div>
-    <div className="step0__about-feature" id="astep0">
+    <div className="step0__about-feature" id="about">
       <Feature title="About Step 0" text="At step 0 we look forward to focusing on the overall progression of a competitive gamer with mental health as the primary focus. Especially with multiplayer online video games becoming more popular, this has led to an increased problem in mental health where players often feel inadequate. Our organization looks to improve the approach and mentality of these players to ensure a more consistent, smoother and sustainable improvement in these video games." />
     </div>
   </div>

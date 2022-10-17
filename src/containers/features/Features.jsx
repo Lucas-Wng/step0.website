@@ -31,10 +31,10 @@ const Features = () => (
     </div>
     <div className="step0__features-heading">
       <h1 className="gradient__text">Mental Health for Gamers</h1>
-      <div className='step0__features-heading-buttons'>
+      {/* <div className='step0__features-heading-buttons'>
         <button>adfasdfasfasdfasdfasdf</button>
         <button>Book an Appointment</button>
-      </div>
+      </div> */}
       <img src={trophy} alt="trophy" />
     </div>
   </div>
