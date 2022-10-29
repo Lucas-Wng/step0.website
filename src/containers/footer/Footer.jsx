@@ -1,21 +1,20 @@
 import React from 'react';
 import './footer.css';
 import logo from "../../assets/logo.png";
-import WidgetBot from '@widgetbot/react-embed'
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="step0__footer section__padding">
       <div className="step0__footer-links">
         <div className="step0__footer-links_logo">
           <img src={logo} alt="logo" />
-          <p>Step 0</p>
         </div>
-
         <div className="step0__footer-links_div">
-          <h4>Step 0</h4>
-          <p>About</p>
-          <p>Blog</p>
-          <p>Contact</p>
+          <h4><Link to="/">Step 0</Link></h4>
+          <p><Link to="/blog">Blog</Link></p>
+          <p><Link to="/about">About</Link></p>
+          <p><Link to="/contact">Contact</Link></p>
+          <p><Link to="/partnership">Partnership</Link></p>
         </div>
       </div>
     </div>

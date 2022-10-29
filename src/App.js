@@ -6,7 +6,7 @@ import Home from "./Home";
 import Blogpage from "./containers/blog/Blogpage";
 import Blogpost from "./containers/blog/Blogpost";
 import ErrorPage from "./components/Errorpage";
-import { Contact, Footer, Aboutpage } from "./containers";
+import { Contact, Footer, Aboutpage, Partnership } from "./containers";
 import WidgetBot from '@widgetbot/react-embed'
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<Aboutpage />} />
+        <Route path="/partnership" element={<Partnership />} />
         <Route path="/blog" element={<Blogpage />} />
         <Route path="/blog/:id" element={<Blogpost />} />
         <Route path="*" element={<ErrorPage />} />

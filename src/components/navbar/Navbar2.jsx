@@ -3,9 +3,10 @@ import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from "../../assets/logo.png";
 import './navbar2.css';
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+  let navigate = useNavigate();
   return (
     <div className="step0__navbar">
       <div className="step0__navbar-links">
@@ -16,11 +17,11 @@ const Navbar = () => {
           <p><Link to="/">Home</Link></p>
           <p><Link to="/blog">Blog</Link></p>
           <p><Link to="/about">About</Link></p>
+          <p><Link to="/partnership">Partnership</Link></p>
         </div>
       </div>
       <div className="step0__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Contact</button>
+        <button type="button" onClick={()=>{navigate("/contact")}}>Contact</button>
       </div>
       <div className="step0__navbar-menu">
         {toggleMenu
@@ -32,10 +33,10 @@ const Navbar = () => {
             <p><Link to="/">Home</Link></p>
             <p><Link to="/blog">Blog</Link></p>
             <p><Link to="/about">About</Link></p>
+            <p><Link to="/partnership">Partnership</Link></p>
           </div>
           <div className="step0__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <button type="button" onClick={()=>{navigate("/contact")}}>Contact</button>
           </div>
         </div>
         )}

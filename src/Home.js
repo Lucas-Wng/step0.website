@@ -1,7 +1,6 @@
 import React from "react";
 
-import { Blog, Features, Mission, Header, Discord } from "./containers";
-import { CTA} from "./components";
+import { Features, Mission, Header } from "./containers";
 import "./App.css";
 
 

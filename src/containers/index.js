@@ -6,3 +6,4 @@ export { default as Mission } from './mission/Mission';
 export { default as Discord } from './discord/Discord';
 export { default as Contact } from './contact/Contact';
 export { default as Aboutpage } from './aboutpage/Aboutpage';
+export { default as Partnership } from './partnership/Partnership';
