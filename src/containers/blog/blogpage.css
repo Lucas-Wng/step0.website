@@ -1,5 +1,5 @@
 .step0__blogpage{
-    padding: 6rem 16rem;
+    padding: 6rem 15%;
 }
 
 .step0__blogpage-heading h1 {
@@ -11,7 +11,14 @@
 }
 
 .step0__blogpage-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1.5rem;
+    max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
 }
+@media (min-width: 600px) {
+    .step0__blogpage-container { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+    .step0__blogpage-container { grid-template-columns: repeat(3, 1fr); }
+  }

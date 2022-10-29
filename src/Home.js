@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Blog, Features, About, Header, Discord } from "./containers";
+import { Blog, Features, Mission, Header, Discord } from "./containers";
 import { CTA} from "./components";
 import "./App.css";
 
@@ -12,8 +12,7 @@ const Home = () => {
           <Header />
         </div>
         <Features />
-        <About />
-        <Blog />
+        <Mission />
     </div>
   );
 };

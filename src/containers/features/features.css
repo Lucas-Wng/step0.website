@@ -22,6 +22,7 @@
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
+    padding-bottom: 2rem;
 }
 
 .step0__features-heading-buttons{

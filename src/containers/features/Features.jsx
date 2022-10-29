@@ -24,11 +24,6 @@ const featuresData = [
 
 const Features = () => (
   <div className="step0__features section__padding" id="features">
-    <div className="step0__features-container">
-      {featuresData.map((item, index) => (
-        <Feature title={item.title} text={item.text} key={item.title + index} />
-      ))}
-    </div>
     <div className="step0__features-heading">
       <h1 className="gradient__text">Mental Health for Gamers</h1>
       {/* <div className='step0__features-heading-buttons'>
@@ -37,6 +32,12 @@ const Features = () => (
       </div> */}
       <img src={trophy} alt="trophy" />
     </div>
+    <div className="step0__features-container">
+      {featuresData.map((item, index) => (
+        <Feature title={item.title} text={item.text} key={item.title + index} />
+      ))}
+    </div>
+    
   </div>
   
 );

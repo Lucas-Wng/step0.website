@@ -1,0 +1,20 @@
+.step0_aboutpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.step0_aboutpage-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    margin: 2rem 2rem;
+}
+
+.step0_aboutpage-content{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    margin-top: 2rem;
+}

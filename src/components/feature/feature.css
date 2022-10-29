@@ -10,8 +10,8 @@
 
 .step0__features-container__feature-title {
     flex: 1;
-    max-width: 200px;
-    margin-right: 2rem;
+    max-width: 250px;
+    margin-right: 4rem;
 }
 
 .step0__features-container__feature-title h1 {
@@ -33,7 +33,7 @@
 
 .step0__features-container_feature-text {
     flex: 2;
-    max-width: 390px;
+    max-width: 430px;
     display: flex;
 }
 

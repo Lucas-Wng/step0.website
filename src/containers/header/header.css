@@ -1,6 +1,7 @@
 .step0__header{
     display: flex;
     flex-direction: row;
+    column-gap: 3rem;
 }
 
 .step0__header-content{
@@ -15,15 +16,15 @@
 .step0__header-content h1{
     font-family: var(--font-family);
     font-weight: 800;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 75px;
+    line-height: 85px;
     letter-spacing: 4px;
 }
 
 .step0__header-content p{
     font-family: var(--font-family);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 30px;
     color: rgb(255, 255, 255);
     margin-top: 1.5rem;
@@ -42,7 +43,7 @@
     height: 100%;
 }
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1200px){
     .step0__header{
         flex-direction: column;
     }
@@ -52,7 +53,7 @@
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .step0__header-content h1 {
         font-size: 48px;
         line-height: 60px;
