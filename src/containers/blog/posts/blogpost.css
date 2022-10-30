@@ -1,7 +1,7 @@
 .step0__blog-post{
     display: flex;
     flex-direction: column;
-    margin: 10rem;
+    margin: 4rem 10rem;
 }
 
 .step0__blog-post-heading{

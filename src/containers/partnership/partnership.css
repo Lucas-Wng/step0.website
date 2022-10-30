@@ -1,0 +1,31 @@
+.step0_partnership{
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 10%;
+}
+.step0_partnership-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.step0_partnership-header h1{
+    font-size: 50px;
+    line-height: 66px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    margin-bottom: 3rem;
+}
+
+.step0_partnership-content-text{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+}

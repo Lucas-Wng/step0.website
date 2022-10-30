@@ -1,16 +1,21 @@
 import React from "react";
 import './discord.css';
+import WidgetBot from "@widgetbot/react-embed";
 function Discord() {
   return (
-    <div>
-      <iframe
-        src="https://discord.com/widget?id=1019387494908842075&theme=dark"
-        width="350"
-        height="500"
-        allowtransparency="true"
-        frameborder="0"
-        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-      ></iframe>
+    <div className="step0_discord">
+      <WidgetBot
+          server="894034596876910613"
+          channel="894034597329899551"
+          width="400"
+          height="600"
+        />
+        <WidgetBot
+          server="1019387494908842075"
+          channel="1019409462139822161"
+          width="400"
+          height="600"
+        />
     </div>
   );
 }
